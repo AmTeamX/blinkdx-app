@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 
 export default async function PatientVideoPage({ params }: { params: { patientId: string } }) {
-    const { patientId } = params;
+    const { patientId } = await params;
 
     try {
         const [patient, videos] = await Promise.all([
