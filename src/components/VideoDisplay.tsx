@@ -20,10 +20,9 @@ import {
   Legend,
   LinearScale,
   LineElement,
-  Plugin,
   PointElement,
   Title,
-  Tooltip,
+  Tooltip
 } from "chart.js";
 import { Line } from "react-chartjs-2";
 
@@ -481,9 +480,8 @@ export default function VideoDisplay({ videoId }: VideoDisplayProps) {
                         transform: "translateX(-50%)",
                       }}
                     >
-                      {/* Main line */}
+                      {/*
                       <div className="w-0.5 h-2/4 bg-orange-500 opacity-90" />
-                      {/* Frame label */}
                       <div
                         className="absolute top-24 rotate-90 left-1/2 transform -translate-x-1/2 bg-orange-500 text-white text-xs font-bold px-2 py-1 rounded whitespace-nowrap"
                         style={{
@@ -492,6 +490,7 @@ export default function VideoDisplay({ videoId }: VideoDisplayProps) {
                       >
                         Frame {currentFrameIndex + 1}
                       </div>
+                      */}
                     </div>
                   )}
                 </>
