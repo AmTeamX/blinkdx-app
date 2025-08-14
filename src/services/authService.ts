@@ -1,6 +1,6 @@
+import { LoginCredentials, LoginResponse, User } from "@/types/Auth";
 import axios from "axios";
 import Cookies from "js-cookie";
-import { LoginCredentials, LoginResponse, User } from "@/types/Auth";
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || "/api";
 
